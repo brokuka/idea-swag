@@ -34,6 +34,9 @@ devDependencies:
   '@unocss/nuxt':
     specifier: ^0.61.0
     version: 0.61.0(postcss@8.4.38)(vite@5.3.2)(webpack@5.92.1)
+  unenv:
+    specifier: ^1.9.0
+    version: 1.9.0
   unocss:
     specifier: ^0.61.0
     version: 0.61.0(@unocss/webpack@0.61.0)(postcss@8.4.38)(vite@5.3.2)
@@ -5944,7 +5947,6 @@ packages:
     resolution: {integrity: sha512-jSCU7/VB1loIWBZe14aEYHU/+1UMEHoaO7qxCOVJOw9GgH72VAWppxNcjU+x9a2k3GSIBXNKxXQFqRvvZ7vr3A==}
     engines: {node: '>=10.0.0'}
     hasBin: true
-    dev: false
 
   /mime@4.0.3:
     resolution: {integrity: sha512-KgUb15Oorc0NEKPbvfa0wRU+PItIEZmiv+pyAO2i0oTIVTJhlzMclU7w4RXWQrSOVH5ax/p/CkIO7KI4OyFJTQ==}
@@ -8012,7 +8014,6 @@ packages:
       mime: 3.0.0
       node-fetch-native: 1.6.4
       pathe: 1.1.2
-    dev: false
 
   /unhead@1.9.14:
     resolution: {integrity: sha512-npdYu6CfasX/IhB8OO27e3u4A1zhAY77T1FwWDIIUaJvugYTte5hjsolPX0/fG5jmjnWTFTuIkmbCSfj7bfIkg==}
